@@ -2,90 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80b176b-7115-44ba-b565-0a63439cd68d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideBenchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideBenchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideSpringConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideSpringConfigure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/CheckoutController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/OrdersHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/OrdersHistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/ShoppingcartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/ShoppingcartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/exception/NumNotAvailalbeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/exception/NumNotAvailalbeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/DateAudit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/DateAudit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/OrderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/OrderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Pricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Pricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/RoleManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/RoleManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Shoppingcart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Shoppingcart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/ShoppingcartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/ShoppingcartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/UserDateAudit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/UserDateAudit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/ApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/EditorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/EditorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/JwtAuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/JwtAuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/ShoppingcartRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/ShoppingcartRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/SignUpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserIdentityAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserIdentityAvailability.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/OrdersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/OrdersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/PersonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/ShoppingcartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/ShoppingcartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/CurrentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtTokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/PersonPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/PersonPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/AuditingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/AuditingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/AnyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/AnyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/CheckoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/CheckoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/OrdersHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/OrdersHistoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ShoppingcartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ShoppingcartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/MongoPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/MongoPageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/ScriptFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/utils/ScriptFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/javascript/SearchDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/javascript/SearchDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/StupideBenchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/StupideBenchApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Pricing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Pricing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Products.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/UsersRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/UsersRepositoryCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/UsersRepositoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/repository/PersonRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/utils/ScriptFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/utils/ScriptFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/javascript/SearchDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/javascript/SearchDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/StupideBenchApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Categories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/CategoryItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/ItemDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/PriceHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Pricing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Products.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/model/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juiceman/StupideBench/utils/ScriptFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/javascript/SearchDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/juiceman/StupideBench/StupideBenchApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+              <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/PersonPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="37">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,12 +108,12 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideSpringConfigure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideBenchApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -187,34 +126,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/LoginRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/securityconfig/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/OrdersHistoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="83">
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/ShoppingcartItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/Products.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ShoppingcartService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryCustom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/repository/UsersRepositoryImpl.java" />
@@ -308,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/UserProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -421,6 +354,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StupideBench" type="462c0819:PsiDirectoryNode" />
+              <item name="payload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StupideBench" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StupideBench" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StupideBench" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -508,12 +450,12 @@
       <workItem from="1549998493118" duration="1264000" />
       <workItem from="1550083411535" duration="700000" />
       <workItem from="1550619959917" duration="288000" />
-      <workItem from="1550637765318" duration="514000" />
+      <workItem from="1550637765318" duration="1262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230768000" />
+    <option name="totallyTimeSpent" value="231516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,8 +468,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -543,7 +486,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" weight="0.24087591" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49919224" visible="true" weight="0.24087591" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329927" />
@@ -582,16 +525,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/controller/UsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="82" column="42" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/model/UserDateAudit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -883,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/LoginRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/SignUpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -971,27 +897,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/JwtAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideSpringConfigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1006,16 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/PersonPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideBenchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1023,6 +922,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/StupideSpringConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/security/PersonPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juiceman/StupideBench/payload/LoginRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
