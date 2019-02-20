@@ -24,6 +24,11 @@ public class Products {
     public ObjectId main_cat_id;
     public List<String> tags;
 
+    public  Products(){
+        super();
+        this.pricing = new Pricing();
+        this.pricing.retail = 999999;
+    }
 
     public Products(String id, String slug, String sku, String name, String description, ItemDetail details,
                     double total_reviews, double average_review, Pricing pricing, List<PriceHistory> price_history,
@@ -41,6 +46,11 @@ public class Products {
         this.category_ids = category_ids;
         this.main_cat_id = main_cat_id;
         this.tags = tags;
+    }
+
+
+    public double getCurrentPrice(){
+        return pricing.retail;
     }
 
 

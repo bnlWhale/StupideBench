@@ -1,24 +1,20 @@
-package com.juiceman.StupideBench.model;
+package com.juiceman.StupideBench.repository;
 
 
-import com.juiceman.StupideBench.service.ProductService;
-import com.juiceman.StupideBench.utils.MongoPageHelper;
+import com.juiceman.StupideBench.model.Address;
+import com.juiceman.StupideBench.model.PaymentMethod;
+import com.juiceman.StupideBench.model.Users;
 import com.juiceman.StupideBench.utils.ScriptFactory;
-import com.mongodb.client.result.UpdateResult;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.mongodb.UncategorizedMongoDbException;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.ScriptOperations;
-import org.springframework.data.mongodb.core.aggregation.Aggregation;
-import org.springframework.data.mongodb.core.query.BasicQuery;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.data.mongodb.core.script.ExecutableMongoScript;
-import org.springframework.data.mongodb.core.script.NamedMongoScript;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.data.mongodb.core.script.ExecutableMongoScript;
+import org.springframework.data.mongodb.core.script.NamedMongoScript;
 
 import java.util.List;
 
@@ -64,7 +60,7 @@ class UsersRepositoryImpl implements UsersRepositoryCustom {
         Users user = mongoTemplate.findOne(query, Users.class);
         System.out.println("find user:"+user);
         */
-
+/*
         for(int i=1;i<21;i++){
 
             query = new Query(Criteria.where("_id").is("4c4b1476238d3b4dd5000001"));
@@ -87,11 +83,11 @@ class UsersRepositoryImpl implements UsersRepositoryCustom {
             Users nu = new Users(userName, firstName, lastName, ad, pm, email);
             //mongoTemplate.insert(nu);
         }
-
+*/
          //Aggregation
         //query = new Query(Criteria.where("_id").is("4c4b1476238d3b4dd5000001"));
 
-        /*
+
         String str = ScriptFactory.getInstance().getScriptStrByName("SearchDetail.js");
         System.out.println("updateName "+str);
 
@@ -109,7 +105,7 @@ class UsersRepositoryImpl implements UsersRepositoryCustom {
         }catch(UncategorizedMongoDbException e){
             System.out.println(e);
         }
-        */
+
 
         /*
         Person p = new Person("Joe","Good",34);

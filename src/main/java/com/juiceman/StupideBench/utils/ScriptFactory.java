@@ -8,11 +8,12 @@ import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.Map;
 
 
 public class ScriptFactory {
 
-    private HashMap<String, String> scriptMap = new HashMap();
+    private Map<String, String> scriptMap = new HashMap();
     private final String dirOfScript = "javascript/";
     private static  ScriptFactory instance;
 

@@ -1,4 +1,4 @@
-package com.juiceman.StupideBench.model;
+package com.juiceman.StupideBench.repository;
 
 interface UsersRepositoryCustom {
 

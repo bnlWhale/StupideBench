@@ -2,21 +2,23 @@ package com.juiceman.StupideBench.security;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.juiceman.StupideBench.model.Person;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-public class UserPrincipal implements UserDetails {
-    private Long id;
+public class PersonPrincipal implements UserDetails {
 
-    private String name;
 
-    private String username;
+    private String id;
+
+    private String userName;
 
     @JsonIgnore
     private String email;
@@ -26,37 +28,48 @@ public class UserPrincipal implements UserDetails {
 
     private Collection<? extends GrantedAuthority> authorities;
 
-    public UserPrincipal(Long id, String name, String username, String email, String password, Collection<? extends GrantedAuthority> authorities) {
+    public PersonPrincipal(String id, String userName, String email, String password, Collection<? extends GrantedAuthority> authorities) {
         this.id = id;
-        this.name = name;
-        this.username = username;
+        this.userName = userName;
         this.email = email;
         this.password = password;
         this.authorities = authorities;
     }
 
-    public static UserPrincipal create(User user) {
-        List<GrantedAuthority> authorities = user.getRoles().stream().map(role ->
-                new SimpleGrantedAuthority(role.getName().name())
-        ).collect(Collectors.toList());
+    public static PersonPrincipal create(Person user) {
 
-        return new UserPrincipal(
+        /*
+        List<GrantedAuthority> authorities = user.getRoles().stream().map(role ->
+                new SimpleGrantedAuthority(role.getFirstName().name())
+        ).collect(Collectors.toList());
+        */
+
+        List<SimpleGrantedAuthority> authorities = createAuthorities(user.getRole());
+        return new PersonPrincipal(
                 user.getId(),
-                user.getName(),
-                user.getUsername(),
+                user.getUserName(),
                 user.getEmail(),
                 user.getPassword(),
                 authorities
         );
     }
 
-    public Long getId() {
-        return id;
+    /**
+     * 权限字符串转化
+     *
+     * 如 "USER,ADMIN" -> SimpleGrantedAuthority("USER") + SimpleGrantedAuthority("ADMIN")
+     *
+     * @param roleStr 权限字符串
+     */
+    private static List<SimpleGrantedAuthority> createAuthorities(String roleStr){
+        String[] roles = roleStr.split(",");
+        List<SimpleGrantedAuthority> simpleGrantedAuthorities = new ArrayList<>();
+        for (String role : roles) {
+            simpleGrantedAuthorities.add(new SimpleGrantedAuthority(role));
+        }
+        return simpleGrantedAuthorities;
     }
 
-    public String getName() {
-        return name;
-    }
 
     public String getEmail() {
         return email;
@@ -64,7 +77,7 @@ public class UserPrincipal implements UserDetails {
 
     @Override
     public String getUsername() {
-        return username;
+        return userName;
     }
 
     @Override
@@ -101,14 +114,22 @@ public class UserPrincipal implements UserDetails {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        UserPrincipal that = (UserPrincipal) o;
-        return Objects.equals(id, that.id);
+        PersonPrincipal that = (PersonPrincipal) o;
+        return Objects.equals(userName, that.userName);
     }
 
     @Override
     public int hashCode() {
 
-        return Objects.hash(id);
+        return Objects.hash(userName);
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
 

@@ -4,8 +4,10 @@ package com.juiceman.StupideBench.repository;
 import com.juiceman.StupideBench.model.Inventory;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface InvertoryRepository extends MongoRepository<Inventory, String> {
+import java.util.Optional;
 
+public interface InventoryRepository extends MongoRepository<Inventory, String> {
 
+    Optional<Inventory> findByProductId(String productId);
 
 }

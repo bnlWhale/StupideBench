@@ -1,4 +1,4 @@
-package com.juiceman.StupideBench.controller;
+package com.juiceman.StupideBench.payload;
 
 import javax.validation.constraints.NotBlank;
 

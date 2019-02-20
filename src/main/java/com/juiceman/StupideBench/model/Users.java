@@ -10,27 +10,24 @@ public class Users {
     @Id
     public String id;
 
-    public String firstName;
-    public String lastName;
-
-
+    public String first_name;
+    public String last_name;
+    public String username;
     public List<Address> addresses;
+    public List<PaymentMethod> payment_methods;
+    public String email;
+    public String password;
+
 
     public Users() {}
 
-    public Users(String firstName, String lastName, List<Address> addresses) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Users(String username, String firstName, String lastName, List<Address> addresses, List<PaymentMethod> payment_methods, String email) {
+        this.first_name = firstName;
+        this.last_name = lastName;
         this.addresses = addresses;
-    }
-
-
-    public String getFirstName(){
-        return firstName;
-    }
-
-    public void setFirstName(String firstName){
-        this.firstName = firstName;
+        this.username = username;
+        this.payment_methods =  payment_methods;
+        this.email = email;
     }
 
 
@@ -38,8 +35,22 @@ public class Users {
     public String toString() {
         return String.format(
                 "Users [id=%s, firstName='%s', lastName='%s']",
-                id, firstName, lastName, this.addresses);
+                id, first_name, last_name, this.addresses);
     }
+
+    public String getRoles(){
+
+        return RoleManager.ROLE_USER;
+    }
+
+    public String getUsername(){
+        return this.username;
+    }
+
+    public String getPassword(){
+        return this.password;
+    }
+
 
     public void showAddress(){
         for (Address addr:addresses

@@ -2,25 +2,77 @@ package com.juiceman.StupideBench.model;
 
 public class Address {
 
-    public String name;
-    public String street;
-    public String city;
-    public String state;
-    public String zip;
+    private String name;
+    private String street;
+    private String city;
+    private String state;
+    private String zip;
+
+    public Address(){
+
+    }
 
     public Address(String name, String street, String city, String state, String zip){
 
-        this.name = name;
-        this.street = street;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
+        this.setName(name);
+        this.setStreet(street);
+        this.setCity(city);
+        this.setState(state);
+        this.setZip(zip);
     }
+
+
+    public void setTestData(String str){
+
+        this.setName(this.getName() + "_"+str);
+        this.setCity(this.getCity() + "_"+str);
+    }
+
 
     @Override
     public String toString() {
 
-        return this.name+" "+this.street+" "+this.city+" "+this.state+" "+this.zip;
+        return this.getName() +" "+ this.getStreet() +" "+ this.getCity() +" "+ this.getState() +" "+ this.getZip();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getZip() {
+        return zip;
+    }
+
+    public void setZip(String zip) {
+        this.zip = zip;
     }
 }
 

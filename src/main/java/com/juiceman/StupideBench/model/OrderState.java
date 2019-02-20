@@ -1,4 +1,8 @@
 package com.juiceman.StupideBench.model;
 
-public class OrderState {
+
+public enum OrderState {
+
+    CREATED, PROCESS, SHIPPING, SHIPPED, DONE
+
 }
